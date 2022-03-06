@@ -15,7 +15,6 @@ public class AdminService {
     @Autowired
     private AdminRepository repo;
 
-
     public List<User> listAll() {
         return repo.findAll();
     }

@@ -37,7 +37,6 @@ public class foodMenuController {
             Product product = service.get(food_id);
             sum+=product.getPrice();
         }
-
         return "Total Bill Amount for cart is Rs."+sum;
     }
 }

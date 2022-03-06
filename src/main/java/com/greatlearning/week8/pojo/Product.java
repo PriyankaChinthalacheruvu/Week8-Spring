@@ -8,6 +8,7 @@ import javax.persistence.Id;
 
 @Entity(name="product")
 public class Product {
+
     private int food_id;
     private String name;
     private String madein;

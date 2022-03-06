@@ -22,6 +22,7 @@ public class AuditConfig {
         AuditLog audit=new AuditLog(joinPoint.getSignature().getName());
         //enable to save into audit table
         //repo.save(audit);
+
     }
 
 

@@ -12,7 +12,6 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity(name="auditlog")
 public class AuditLog {
-
     @Id
     @Column
     @GeneratedValue(strategy= GenerationType.IDENTITY)

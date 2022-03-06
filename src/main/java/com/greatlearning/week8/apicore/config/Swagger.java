@@ -19,6 +19,7 @@ public class Swagger {
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(getApiInfo()).groupName("Restaurant APIs")
                 .select().apis(RequestHandlerSelectors.basePackage("com.greatlearning.week8.controller"))
                 .build();
+
     }
 
     private ApiInfo getApiInfo(){
